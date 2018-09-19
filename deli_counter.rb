@@ -10,6 +10,6 @@ def line (array)
       new_array.push(" #{n + 1}. #{array[n]}")
       n = n + 1
     end 
-    puts new_array
+    new_array.join
   end 
 end 
