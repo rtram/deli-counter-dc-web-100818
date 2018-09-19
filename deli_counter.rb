@@ -10,7 +10,7 @@ def line (array)
       new_array.push(" #{n + 1}. #{array[n]}")
       n = n + 1
     end 
-    new_array = new_array.join(", ")
+    new_array = new_array.join(",")
     puts "The line is currently:#{new_array}"
   end 
 end 
